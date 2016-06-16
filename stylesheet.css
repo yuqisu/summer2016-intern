@@ -1,0 +1,50 @@
+#post li{
+	height:10%;
+	width: 30%;
+	margin: 10px;
+	padding: 5px;
+	color:white;
+	background-color: darkmagenta;
+	display:inline-block;
+	border-radius: 20px;
+
+}
+a{
+text-decoration:none;	
+color:white;
+display: block;
+padding: 10px;
+
+}
+#post li:hover{
+	background-color: orchid;
+}
+h2{
+	text-align: center;
+    color: dimgrey;
+    font-size: -webkit-xxx-large;
+    font-family: fantasy
+}
+.id{
+	float:right;
+}
+h3{
+	margin: 0;
+	text-align: center;
+}
+#postpage li{
+	background-color: darkcyan;
+    width: 70%;
+    margin: 0 12.5%;
+    text-align: center;
+}
+.text{
+	font-size: larger;
+    text-align: -webkit-center;
+    font-family: fantasy;
+}
+@media only screen and (max-width: 640px){
+	#post li{
+		width:100%;
+	}
+}
